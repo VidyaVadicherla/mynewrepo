@@ -1,0 +1,147 @@
+.first-background-heading{
+    font-family:  -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    font-style: italic;
+    font-size: 50px;
+    color: white;
+    padding: 250px;
+    padding-bottom: 100px;
+
+}
+.first-background{
+  background-color: white;
+    margin-top: 0%;
+    margin-bottom: 5%;
+    background-image: url("https://www.kisaanyard.com/agri_store/images/agro/banner.jpg");
+    background-size: cover;
+    background-blend-mode: darken #333333;
+    height: 50%;
+}
+.second-section-label{
+  text-align: center;
+ font-size:50px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding-top: 40px;
+
+}
+.methods-img{
+  width: 420px;
+  height: 250px;
+  padding-top: 0px;
+}
+.methods-heading{
+  font-size: 25px;
+  padding: 10px;
+}
+.methods-para{
+  padding: 10px;
+}
+.methods-card{
+  margin: 20px;
+  border-style: solid;
+  border-width: 0px;
+  border-bottom-width: 5px;
+  border-color: white;
+}
+.methods-container{
+  display: flex;
+  flex-direction: row;
+  margin: 50px;
+}
+.methods-card:hover{
+  box-shadow: 0 4rem 8rem rgba(0,0,0,0.5);
+  border-color: orange;
+  border-radius: 5px;
+}
+@media  screen and (max-width:1350px){
+  .methods-container{
+      flex-direction: row;
+      margin: 100px;
+  }
+  .methods-img{
+      width: 100%;
+  }
+}
+  @media screen and (max-width:700px){
+    .methods-container{
+      flex-direction: column;
+  }
+  .methods-img {
+    width: 100%;
+    height: 152px;
+}
+.methods-container {
+
+    margin: 17px;
+}
+.methods-card{
+  margin: 7px;
+  margin-top: 15px;
+}
+.second-section{
+  flex-direction: column;
+}
+.second-section {
+
+  margin: 14px;
+  margin-top: 40px;
+
+
+}
+.second-section-label{
+ font-size: 25px;
+  padding-top: 40px;
+
+}
+
+.second-section-label {
+text-align: center;
+font-weight: bold;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+padding-top: 30px;
+}
+.second-section-img {
+width: 90vw;
+height: 175px;
+}
+.section-para {
+padding: 10px;
+}
+}
+.second-section-img{
+  width: 401px;
+  height: 323px;
+}
+.second-section{
+  display: flex;
+  margin: 80px;
+  margin-top: 40px;
+  border-style: solid;
+  border-width: 0px;
+  border-left-width: 5px;
+  border-right-width: 5px;
+  border-color: white;
+
+}
+.second-section:hover{
+  border-color: orange;
+  border-radius: 5px;
+}
+.second-section-content-heading{
+  font-size: 25px;
+  padding: 10px;
+}
+.second-section-para{
+  padding: 10px;
+}
+.second-section-content{
+  padding: 10px;
+}
+.second-section-label{
+  text-align: center;
+  font-weight: bold;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding-top: 80px;
+
+}
